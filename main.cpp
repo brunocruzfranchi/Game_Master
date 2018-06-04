@@ -6,10 +6,8 @@
 
 int main(){
 
-    cListaT <cJugador> Jugadores(2);
 	cListaT <cPais> Paises(12);
+    cListaT <cJugador> Jugadores(2);
 
-    Generar_Paises(Paises);
-    
     return 0;
 }

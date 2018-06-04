@@ -17,15 +17,11 @@ class cPais : public cListaT<class T>
 {
 
 public:
-	cPais();
+	cPais(string nombre);
 	virtual ~cPais();
-	cListaT limitrofes;
 	const string Nombre;
-
 	void Distribuir(cTropa* t);
-	cPais** getLimitrofes();
 	const string getNombre();
-	void setLimitrofes(cPais** limitrofes);
 
 private:
 	/**

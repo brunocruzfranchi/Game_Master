@@ -8,7 +8,7 @@
 #include "cPais.h"
 
 
-cPais::cPais(){
+cPais::cPais(string nombre):Nombre(nombre){
 
 }
 

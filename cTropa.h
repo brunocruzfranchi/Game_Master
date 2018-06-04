@@ -10,6 +10,7 @@
 
 #include "cUnidades.h"
 #include "cListaT.h"
+#include "cPais.h"
 
 class cTropa : public cListaT<class T>
 {
@@ -18,6 +19,7 @@ public:
 	cTropa();
 	virtual ~cTropa();
 	const string Tipo;
+	cPais* Pais:
 	virtual void Atacar(cTropa* atacado) = 0;
 	virtual void Contraatacar(cTropa* t) = 0;
 	int getN_Unidades();
